@@ -1,0 +1,15 @@
+{
+  "name": "获取迅雷下载链接",
+  "version": "1.1",
+  "description": "方便 Mac 系统下获取迅雷快传页面的下载链接，将链接显示到页面上。",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "获取迅雷下载链接",
+      "default_icon": "icon.png",
+      "default_popup": "get_thunder.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
